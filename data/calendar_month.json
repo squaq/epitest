@@ -1,0 +1,113 @@
+{
+  "error": "false",
+  "data": [
+    {
+      "_id": {
+        "day": 20,
+        "month": 10,
+        "year": 2015,
+        "no_symptom": "Y"
+      },
+      "count": 1
+    },
+    {
+      "_id": {
+        "day": 30,
+        "month": 10,
+        "year": 2015,
+        "no_symptom": "Y"
+      },
+      "count": 10
+    },
+    {
+      "_id": {
+        "day": 21,
+        "month": 10,
+        "year": 2015,
+        "no_symptom": "N"
+      },
+      "count": 4
+    },
+    {
+      "_id": {
+        "day": 21,
+        "month": 10,
+        "year": 2015,
+        "no_symptom": "Y"
+      },
+      "count": 3
+    },
+    {
+      "_id": {
+        "day": 27,
+        "month": 10,
+        "year": 2015,
+        "no_symptom": "Y"
+      },
+      "count": 2
+    },
+    {
+      "_id": {
+        "day": 20,
+        "month": 10,
+        "year": 2015,
+        "no_symptom": "N"
+      },
+      "count": 1
+    },
+    {
+      "_id": {
+        "day": 31,
+        "month": 10,
+        "year": 2015,
+        "no_symptom": "N"
+      },
+      "count": 1
+    },
+    {
+      "_id": {
+        "day": 19,
+        "month": 10,
+        "year": 2015,
+        "no_symptom": "N"
+      },
+      "count": 1
+    },
+    {
+      "_id": {
+        "day": 26,
+        "month": 10,
+        "year": 2015,
+        "no_symptom": "Y"
+      },
+      "count": 9
+    },
+    {
+      "_id": {
+        "day": 31,
+        "month": 10,
+        "year": 2015,
+        "no_symptom": "Y"
+      },
+      "count": 4
+    },
+    {
+      "_id": {
+        "day": 19,
+        "month": 10,
+        "year": 2015,
+        "no_symptom": "Y"
+      },
+      "count": 2
+    },
+    {
+      "_id": {
+        "day": 22,
+        "month": 10,
+        "year": 2015,
+        "no_symptom": "Y"
+      },
+      "count": 2
+    }
+  ]
+}
