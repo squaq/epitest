@@ -1,0 +1,29 @@
+{
+  "error": "false",
+  "data": [
+    {
+      "_id": {
+        "month": 12,
+        "year": 2015
+      },
+      "count": 1,
+      "percent": "3.23"
+    },
+    {
+      "_id": {
+        "month": 10,
+        "year": 2015
+      },
+      "count": 8,
+      "percent": "25.81"
+    },
+    {
+      "_id": {
+        "month": 11,
+        "year": 2015
+      },
+      "count": 15,
+      "percent": "50.00"
+    }
+  ]
+}
