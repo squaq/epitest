@@ -1,0 +1,37 @@
+<ion-view view-title="Diário da Saúde">
+  <ion-content data-ng-init="init()" class="padding">
+    <div id="membros" class="horicenter">
+        <h2>Selecione um membro</h2>
+        <div class="users_g" data-ng-repeat="u in users">
+            <i class="icon ion-record"></i>
+            <label><b>{{u.id}}</b></label>
+            <h5>{{u.name}}</h5>
+        </div>
+    </div>
+      
+    <hr>
+    <div class="resumo horicenter">
+        <h2>Resumo</h2>
+        <h3>{{total.total}} Participações</h3>
+        <div id="group">
+            <i class="icon ion-record" id="good_cg"></i>
+            <label id="perc">{{goodPercent()}}% Bem</label>
+            <div id="rela">{{total.no_symptom}} Relatórios</div>
+        </div>
+        <div id="group" class="group_down">
+            <i class="icon ion-record" id="good_cr"></i>
+            <div id="perc">{{badPercent()}}% Mal</div>
+            <div id="rela">{{total.symptom}} Relatórios</div>
+        </div>
+        
+        <canvas id="pie_chart" class="chart chart-pie" chart-data="pie.data" chart-labels="pie.labels" chart-colours="pie.colours">
+        </canvas>
+    </div>
+    <div class="freq horicenter">
+      <h2>Frequência</h2>
+        <canvas id="line" class="chart chart-line" chart-data="lineChart.data"
+  chart-labels="lineChart.labels" chart-series="lineChart.series"></canvas> 
+    </div>
+      
+  </ion-content>
+</ion-view>
